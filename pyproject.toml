@@ -10,6 +10,7 @@ packages = [{include = "chat_agent"}]
 python = "^3.12"
 langchain-core = "^0.1.46"
 transformers = "^4.40.1"
+pydantic = "^2.7.1"
 
 
 [build-system]
