@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chat-agent"
+version = "0.1.0"
+description = ""
+authors = ["leungad <aleung26@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chat_agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.1.46"
+transformers = "^4.40.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
